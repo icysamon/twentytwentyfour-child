@@ -1,0 +1,18 @@
+/*
+Theme Name:Twenty Twenty-Four Child
+Template:twentytwentyfour
+Author:icysamon
+Author URI:https://icysamon.com
+*/
+
+@import url("../twentytwentyfour/style.css");
+
+.wp-block-site-title a{
+    color: red !important;
+}
+/*header{
+	position:fixed;
+	top:0%;
+	width:100%;
+	z-index:999;
+}*/
