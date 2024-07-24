@@ -1,33 +1,33 @@
 {
-	"$schema": "https://schemas.wp.org/wp/6.5/theme.json",
+	"$schema": "https://schemas.wp.org/wp/6.6/theme.json",
 	"customTemplates": [
 		{
 			"name": "page-no-title",
 			"postTypes": [
 				"page"
 			],
-			"title": "Page No Title"
+			"title": "タイトルのない固定ページ"
 		},
 		{
 			"name": "page-with-sidebar",
 			"postTypes": [
 				"page"
 			],
-			"title": "Page with Sidebar"
+			"title": "サイドバー付きの固定ページ"
 		},
 		{
 			"name": "page-wide",
 			"postTypes": [
 				"page"
 			],
-			"title": "Page with Wide Image"
+			"title": "広幅画像付き固定ページ"
 		},
 		{
 			"name": "single-with-sidebar",
 			"postTypes": [
 				"post"
 			],
-			"title": "Single with Sidebar"
+			"title": "サイドバー付きの投稿"
 		}
 	],
 	"patterns": [
@@ -46,7 +46,7 @@
 						"#111111",
 						"#ffffff"
 					],
-					"name": "Black and white",
+					"name": "ブラックとホワイト",
 					"slug": "duotone-1"
 				},
 				{
@@ -54,7 +54,7 @@
 						"#111111",
 						"#C2A990"
 					],
-					"name": "Black and sandstone",
+					"name": "ブラックとサンドストーン色",
 					"slug": "duotone-2"
 				},
 				{
@@ -62,7 +62,7 @@
 						"#111111",
 						"#D8613C"
 					],
-					"name": "Black and rust",
+					"name": "ブラックと錆色",
 					"slug": "duotone-3"
 				},
 				{
@@ -70,7 +70,7 @@
 						"#111111",
 						"#B1C5A4"
 					],
-					"name": "Black and sage",
+					"name": "ブラックとセージグリーン",
 					"slug": "duotone-4"
 				},
 				{
@@ -78,76 +78,76 @@
 						"#111111",
 						"#B5BDBC"
 					],
-					"name": "Black and pastel blue",
+					"name": "ブラックとパステルブルー",
 					"slug": "duotone-5"
 				}
 			],
 			"gradients": [
 				{
 					"gradient": "linear-gradient(to bottom, #cfcabe 0%, #F9F9F9 100%)",
-					"name": "Vertical soft beige to white",
+					"name": "ベージュからホワイトへの垂直方向になめらかなグラデーション",
 					"slug": "gradient-1"
 				},
 				{
 					"gradient": "linear-gradient(to bottom, #C2A990 0%, #F9F9F9 100%)",
-					"name": "Vertical soft sandstone to white",
+					"name": "サンドストーン色からホワイトへの垂直方向になめらかなグラデーション",
 					"slug": "gradient-2"
 				},
 				{
 					"gradient": "linear-gradient(to bottom, #D8613C 0%, #F9F9F9 100%)",
-					"name": "Vertical soft rust to white",
+					"name": "錆色からホワイトへの垂直方向になめらかなグラデーション",
 					"slug": "gradient-3"
 				},
 				{
 					"gradient": "linear-gradient(to bottom, #B1C5A4 0%, #F9F9F9 100%)",
-					"name": "Vertical soft sage to white",
+					"name": "セージグリーンからホワイトへの垂直方向になめらかなグラデーション",
 					"slug": "gradient-4"
 				},
 				{
 					"gradient": "linear-gradient(to bottom, #B5BDBC 0%, #F9F9F9 100%)",
-					"name": "Vertical soft mint to white",
+					"name": "ミントグリーンからホワイトへの垂直方向になめらかなグラデーション",
 					"slug": "gradient-5"
 				},
 				{
 					"gradient": "linear-gradient(to bottom, #A4A4A4 0%, #F9F9F9 100%)",
-					"name": "Vertical soft pewter to white",
+					"name": "ライトグレーからホワイトへの垂直方向になめらかなグラデーション",
 					"slug": "gradient-6"
 				},
 				{
 					"gradient": "linear-gradient(to bottom, #cfcabe 50%, #F9F9F9 50%)",
-					"name": "Vertical hard beige to white",
+					"name": "ベージュからホワイトへの垂直方向に明確なグラデーション",
 					"slug": "gradient-7"
 				},
 				{
 					"gradient": "linear-gradient(to bottom, #C2A990 50%, #F9F9F9 50%)",
-					"name": "Vertical hard sandstone to white",
+					"name": "サンドストーン色からホワイトへの垂直方向に明確なグラデーション",
 					"slug": "gradient-8"
 				},
 				{
 					"gradient": "linear-gradient(to bottom, #D8613C 50%, #F9F9F9 50%)",
-					"name": "Vertical hard rust to white",
+					"name": "錆色からホワイトへの垂直方向に明確なグラデーション",
 					"slug": "gradient-9"
 				},
 				{
 					"gradient": "linear-gradient(to bottom, #B1C5A4 50%, #F9F9F9 50%)",
-					"name": "Vertical hard sage to white",
+					"name": "セージグリーンからホワイトへの垂直方向に明確なグラデーション",
 					"slug": "gradient-10"
 				},
 				{
 					"gradient": "linear-gradient(to bottom, #B5BDBC 50%, #F9F9F9 50%)",
-					"name": "Vertical hard mint to white",
+					"name": "ミントグリーンからホワイトへの垂直方向に明確なグラデーション",
 					"slug": "gradient-11"
 				},
 				{
 					"gradient": "linear-gradient(to bottom, #A4A4A4 50%, #F9F9F9 50%)",
-					"name": "Vertical hard pewter to white",
+					"name": "濃いグレーからホワイトへの垂直方向に明確なグラデーション",
 					"slug": "gradient-12"
 				}
 			],
 			"palette": [
 				{
 					"color": "#f9f9f9",
-					"name": "Base",
+					"name": "ベース",
 					"slug": "base"
 				},
 				{
@@ -157,7 +157,7 @@
 				},
 				{
 					"color": "#111111",
-					"name": "Contrast",
+					"name": "コントラスト",
 					"slug": "contrast"
 				},
 				{
@@ -172,27 +172,27 @@
 				},
 				{
 					"color": "#cfcabe",
-					"name": "Accent",
+					"name": "アクセント",
 					"slug": "accent"
 				},
 				{
 					"color": "#c2a990",
-					"name": "Accent / Two",
+					"name": "アクセント / Two",
 					"slug": "accent-2"
 				},
 				{
 					"color": "#d8613c",
-					"name": "Accent / Three",
+					"name": "アクセント / Three",
 					"slug": "accent-3"
 				},
 				{
 					"color": "#b1c5a4",
-					"name": "Accent / Four",
+					"name": "アクセント / Four",
 					"slug": "accent-4"
 				},
 				{
 					"color": "#b5bdbc",
-					"name": "Accent / Five",
+					"name": "アクセント / Five",
 					"slug": "accent-5"
 				}
 			]
@@ -202,9 +202,7 @@
 			"wideSize": "1280px"
 		},
 		"spacing": {
-			"spacingScale": {
-				"steps": 0
-			},
+			"defaultSpacingSizes": false,
 			"spacingSizes": [
 				{
 					"name": "1",
@@ -247,12 +245,21 @@
 			]
 		},
 		"typography": {
+			"defaultFontSizes": false,
 			"fluid": true,
 			"fontFamilies": [
 				{
-					"fontFamily": "-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif",
-					"name": "System Sans-serif",
-					"slug": "system-sans-serif"
+					"fontFace": [
+						{
+							"fontFamily": "\"Noto Sans JP\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": "https://blog.icysamon.com/wp-content/uploads/sites/2/fonts/F6jfjtqLzI2JPCgQBnw7HFyzSD-AsregP8VFBEj757Y0rw-oME.woff2"
+						}
+					],
+					"fontFamily": "\"Noto Sans JP\", sans-serif",
+					"name": "Noto Sans JP",
+					"slug": "noto-sans-jp"
 				}
 			],
 			"fontSizes": [
@@ -362,6 +369,7 @@
 					}
 				},
 				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system-sans-serif)",
 					"fontSize": "var(--wp--preset--font-size--medium)",
 					"fontStyle": "normal",
 					"fontWeight": "400",
@@ -796,7 +804,7 @@
 			"background": "#f4f4f4",
 			"text": "#4d4d4d"
 		},
-		"css": ".wp-block-post{\nbackground: white;\nborder-radius: 5px;\nbox-shadow: 0px 0px 20px #BAD3E3;\n}\n\n.author-panel{\nbackground: white;\nbox-shadow: 0px 0px 20px #BAD3E3;\n}\n\n.post-panel{\nborder-radius: 25px;\nbox-shadow: 0px 0px 20px #BAD3E3;\n}\n\n.title-panel{\nborder-radius:25px 25px 0px 0px;\nwidth: 100%;\n}\n\n.footer-panel{\nbox-shadow: 0px 0px 20px #BAD3E3;\n}\n\n.pagination-panel{\nbox-shadow: 0px 0px 20px #BAD3E3;\nborder-radius:5px;\nmargin-top: 50px;\npadding-top: 10px;\n}",
+		"css": ".wp-block-post{\nbackground: white;\nborder-radius: 5px;\nbox-shadow: 0px 0px 20px #BAD3E3;\n}\n\n.author-panel{\nbackground: white;\nbox-shadow: 0px 0px 20px #BAD3E3;\n}\n\n.post-panel{\nborder-radius: 25px;\nbox-shadow: 0px 0px 20px #BAD3E3;\n}\n\n.title-panel{\nborder-radius:25px 25px 0px 0px;\nwidth: 100%;\n}\n\n.footer-panel{\nbox-shadow: 0px 0px 20px #BAD3E3;\n}\n\n.pagination-panel{\nbox-shadow: 0px 0px 20px #BAD3E3;\nborder-radius:5px;\nmargin-top: 50px;\npadding-top: 10px;\n}\n\n.wp-block-code {\nborder-radius: 3px !important;\n}",
 		"elements": {
 			"button": {
 				":active": {
@@ -844,7 +852,7 @@
 					}
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--noto-sans-javanese)",
+					"fontFamily": "var(--wp--preset--font-family--noto-sans-jp)",
 					"fontSize": "var(--wp--preset--font-size--small)",
 					"fontStyle": "normal",
 					"fontWeight": "500"
@@ -855,7 +863,7 @@
 					"text": "var(--wp--preset--color--contrast-2)"
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--noto-sans-javanese)",
+					"fontFamily": "var(--wp--preset--font-family--noto-sans-jp)",
 					"fontSize": "0.8rem"
 				}
 			},
@@ -902,7 +910,7 @@
 					"text": "#5ab6aa"
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--noto-sans-javanese)",
+					"fontFamily": "var(--wp--preset--font-family--noto-sans-jp)",
 					"fontWeight": "400",
 					"letterSpacing": "0px",
 					"lineHeight": "1.50"
@@ -918,6 +926,7 @@
 					"text": "#4385a1"
 				},
 				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--noto-sans-jp)",
 					"fontStyle": "normal",
 					"fontWeight": "700",
 					"lineHeight": "1.5"
@@ -932,7 +941,7 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--body)",
+			"fontFamily": "var(--wp--preset--font-family--noto-sans-jp)",
 			"fontSize": "var(--wp--preset--font-size--medium)",
 			"fontStyle": "normal",
 			"fontWeight": "400",
@@ -943,23 +952,23 @@
 		{
 			"area": "header",
 			"name": "header",
-			"title": "Header"
+			"title": "ヘッダー"
 		},
 		{
 			"area": "footer",
 			"name": "footer",
-			"title": "Footer"
+			"title": "フッター"
 		},
 		{
 			"area": "uncategorized",
 			"name": "sidebar",
-			"title": "Sidebar"
+			"title": "サイドバー"
 		},
 		{
 			"area": "uncategorized",
 			"name": "post-meta",
-			"title": "Post Meta"
+			"title": "投稿メタ"
 		}
 	],
-	"version": 2
+	"version": 3
 }

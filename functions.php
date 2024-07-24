@@ -21,10 +21,10 @@ function add_prism() {
 }
 add_action('wp_enqueue_scripts', 'add_prism');
 
+
 // Mathjax3
 function add_mathjax_script() {
     wp_enqueue_script('mathjax-polyfill', 'https://polyfill.io/v3/polyfill.min.js?features=es6', array(), '1.0', true);
     wp_enqueue_script('mathjax-script', 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js', array('mathjax-polyfill'), '1.0', true);
 }
 add_action('wp_enqueue_scripts', 'add_mathjax_script');
-
